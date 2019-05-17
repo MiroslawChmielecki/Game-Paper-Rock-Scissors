@@ -1,0 +1,67 @@
+body{
+    background-color: #0A940F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+  header{
+    background-color: #0A940F;
+    margin-top: 40px;
+  }
+  
+  header > h1{
+    font-size: 60px;
+    color: black;
+    font-style: italic;
+    }
+    .result-board{
+        min-height: 300px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #conditions{
+        font-size: 35px;
+    }
+    
+    .score{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .user{
+        font-size: 30px;
+        color: blue;
+        margin-right: 15px;
+    }
+    #result{
+        font-size: 50px;
+    }
+    .comp{
+        font-size: 30px;
+        color: red;
+        margin-left: 15px;
+    }
+    #output{
+        font-size: 35px;
+    }
+    #outputAllGame{
+        font-size: 50px;
+        font-weight: bold;
+        color: #003333;
+    }
+    button{
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        margin: 30px;
+        font-size: 20px;
+        background-color: lightgrey;
+      }
+    button:hover{
+        cursor: pointer;
+        background: grey;
+      }
